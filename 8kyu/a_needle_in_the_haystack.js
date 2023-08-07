@@ -3,7 +3,7 @@ function findNeedle(haystack) {
   const needleIndex = haystack.indexOf("needle");
   return needleIndex
     ? `found the needle at position ${needleIndex}`
-    : `Not find the needle`;
+    : `did not find the needle`;
 }
 
 console.log(
